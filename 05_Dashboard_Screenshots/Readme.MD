@@ -1,96 +1,99 @@
-**📊 Dashboard Screenshots ->**
+**📊 Dashboard Screenshots->**
 
-• This folder contains visual previews of dashboards developed during the Financial Report Analysis project. These dashboards were designed to transform raw financial data into actionable business insights using industry-standard BI tools.
+• This folder contains visual previews of business intelligence dashboards developed using Power BI and Tableau as part of financial and loan performance analysis projects.
 
-• The screenshots highlight key performance indicators, trend analysis, and customer segmentation used for strategic decision-making.
+• These dashboards convert raw structured data into measurable business insights focused on performance tracking, risk monitoring, and decision support.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**🎯 Purpose of Dashboards ->**
+**🎯 Objective ->**
 
 -> The dashboards were created to:
 
-• Monitor financial and loan performance
+• Monitor financial and loan portfolio performance
 
-• Identify high-risk vs low-risk customers
+• Track key performance indicators (KPIs)
 
-• Track revenue and loan approval trends
+• Identify performing vs non-performing segments
 
-• Support data-driven business planning
+• Analyze regional and customer-level risk exposure
 
-• Provide interactive reporting for stakeholders
+• Support data-driven strategic decisions
 
-📈 Dashboard Highlights
-✅ KPI Overview
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Displays high-level financial performance metrics including:**
+**📈 Dashboard Coverage ->**
 
-• Total Loans Issued
+**1️⃣ KPI Performance Overview ->**
 
-• Total Revenue Generated
+-> Displays high-level business metrics such as:
 
-• Average Loan Value
+• Total Applications / Transactions
 
-• Customer Distribution
+• Total Funded or Revenue Amount
 
-This dashboard provides a quick performance snapshot for management.
+• Amount Received / Profit Metrics
 
-**⚖️ Good vs Bad Loans Analysis -**
+• Average Interest Rate / Margin
 
-Compares performing and non-performing loans to evaluate financial risk exposure.
+• Growth and trend indicators
 
-**-> Key Insights Covered:**
+-> Provides management with a quick operational snapshot.
 
-• Percentage of good loans
+**2️⃣ Good vs Bad Segment Analysis ->**
 
-• Default rate trends
+-> Compares performing and non-performing segments to assess financial stability.
 
-• Risk distribution across customers
+-> Key coverage includes:
 
-Helps identify areas requiring risk mitigation strategies.
+• Performing vs default percentage
 
-**📉 Loan Trend Analysis -**
+• Risk distribution patterns
 
-Tracks loan issuance patterns over time.
+• Funded vs recovered comparison
 
--> Key Features:
+• Exposure concentration analysis
 
-• Monthly loan trends
+-> Supports portfolio health monitoring.
 
-• Seasonal performance variations
+**3️⃣ Distribution & Trend Analysis -**
 
-• Growth and decline indicators
+-> Analyzes performance across multiple dimensions:
 
-Supports forecasting and strategic financial planning.
+• State or regional distribution
 
-**👥 Customer Risk Segmentation -**
+• Purpose / category segmentation
 
-Segments customers based on financial behaviour and risk levels.
+• Grade / term-based risk profiling
 
--> Insights Generated:
+• Monthly performance trends
 
-• High-risk customer identification
+-> Enables identification of growth and risk-heavy segments.
 
-• Safe lending customer groups
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-• Loan approval optimisation opportunities
-
-Enables targeted lending strategy development.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-**🛠 Tools Used ->**
+**🛠 Tools & Techniques->**
 
 • Microsoft Power BI
 
 • Tableau
 
-• Excel Data Source
+• Data Modeling
 
-• SQL Processed Data
+• Calculated KPIs & Measures
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Business-Oriented Visualization Design
 
-**📌 Business Impact ->**
+**📌 Business Value ->**
 
-The dashboards improve decision-making by simplifying complex financial data into intuitive visual insights. They enable organisations to monitor performance, reduce financial risk, and identify growth opportunities.
+-> These dashboards improve decision-making by transforming complex financial datasets into structured, visual performance summaries.
+
+-> They enable organizations to:
+
+• Monitor operational efficiency
+
+• Detect risk exposure early
+
+• Optimize portfolio allocation
+
+• Support data-backed financial planning
