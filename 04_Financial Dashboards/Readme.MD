@@ -11,7 +11,7 @@ The Power BI dashboard focuses on transforming structured financial datasets int
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**🛠 Skills Demonstrated**
+**🛠 Skills Demonstrated -**
 
 • Data Modeling & Relationship Building
 
