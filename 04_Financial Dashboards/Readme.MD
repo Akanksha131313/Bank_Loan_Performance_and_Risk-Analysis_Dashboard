@@ -2,11 +2,14 @@
 
 This folder contains interactive financial dashboards built using Power BI and Tableau, designed to translate complex financial datasets into clear, actionable business insights. The dashboards demonstrate strong data visualization, business intelligence, and analytical storytelling skills aligned with real-world data analyst responsibilities.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🔷 Power BI Dashboard ->**
 
 **📌 Overview -**
 
 The Power BI dashboard focuses on transforming structured financial datasets into dynamic and interactive business reports. It highlights performance metrics, financial trends, and key business indicators to support data-driven decision-making.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **🛠 Skills Demonstrated**
 
@@ -62,7 +65,7 @@ The Tableau dashboard complements the Power BI analysis by presenting financial 
 
 • Business Insight Presentation
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **📈 Key Insights & Features -**
 
@@ -80,7 +83,7 @@ The Tableau dashboard complements the Power BI analysis by presenting financial 
 
 The Tableau dashboard improves financial transparency and helps stakeholders quickly interpret performance patterns and strategic opportunities.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **🔄 Project Workflow Integration -**
 
@@ -98,6 +101,8 @@ The Tableau dashboard improves financial transparency and helps stakeholders qui
 
 ✔ End-to-End Financial Data Analysis ✔ Multi-Tool Visualization Approach ✔ Business-Oriented Insight Generation ✔ Industry-Relevant Dashboard Development ✔ Demonstrates Strong Analytical and Reporting Skills
 
-🚀 Purpose of This Project
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**🚀 Purpose of This Project -**
 
 This project is designed to showcase practical data analyst capabilities in financial reporting, business intelligence, and data visualization using industry-standard tools.
