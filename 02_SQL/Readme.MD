@@ -21,7 +21,9 @@ Responsible for retrieving raw loan data from database tables.
 -> Includes:
 
 • Selecting loan records
+
 • Extracting required columns
+
 • Filtering relevant financial data
 
 2️⃣ **Data_Transformation.sql** -
