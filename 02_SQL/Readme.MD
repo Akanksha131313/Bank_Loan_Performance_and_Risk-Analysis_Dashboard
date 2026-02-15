@@ -39,9 +39,13 @@ Performs business analysis and KPI generation.
 • Aggregation and grouping analysis
 
 • Advanced SQL concepts:
+
 ⁍ CTE (Common Table Expressions)
+
 ⁍  Window Functions
+
 ⁍ Subqueries
+
 ⁍ CTAS (Create Table As Select)
 
 🛠 **SQL Concepts Used** -
