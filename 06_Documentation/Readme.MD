@@ -1,71 +1,69 @@
-**📂 Project Documentation ->**
+**📂 Project Documentation – Financial Loan Performance & Risk Analysis -**
 
-• This folder contains structured documentation supporting the Financial Loan Performance & Risk Analysis project.
+• This folder contains structured documentation supporting the end-to-end loan performance and risk analytics project.
 
-• The purpose of this documentation is to demonstrate not only dashboard development, but also business understanding, analytical reasoning, and structured problem-solving approach.
+• It demonstrates business understanding, analytical reasoning, and the ability to translate financial problems into measurable data solutions — not just dashboard creation.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**📘 1️⃣ Domain Knowledge – Financial Loans**
+**📘 1️⃣ Financial Domain Understanding -**
 
--> Covers foundational understanding of:
+-> Covers core banking and lending concepts including:
 
-• Loan lifecycle
+• Loan lifecycle & repayment structure
 
 • Performing vs Non-performing loans
 
-• Interest rate and DTI concepts
+• Interest rate, DTI, and credit risk fundamentals
 
-• Risk assessment fundamentals
+• Portfolio exposure & monitoring principles
 
-• Portfolio monitoring principles
-
--> Demonstrates domain familiarity beyond visualization tools.
+-> Why it matters:
+Shows domain familiarity required for financial data analyst roles, beyond tool-based reporting..
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**📝 2️⃣ Problem Statement -.**
+**📝 2️⃣ Business Problem Definition -**
 
--> Defines:
+-> Clearly outlines:
 
 • Business objective
 
-• Key performance questions
+• KPI tracking requirements
 
-• Risk analysis goals
+• Risk evaluation goals
 
-• Analytical scope
+• Analytical scope & constraints
 
--> Clarifies the purpose and decision-making context of the project.
+-> Why it matters:
+Demonstrates structured problem framing before jumping into SQL or dashboards — aligning analysis with decision-making needs.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**🧾 3️⃣ Query Explanation ->**
+**🧾 3️⃣ SQL & KPI Logic Explanation -**
 
--> Explains:
+-> Documents:
 
-• Data extraction logic
+• Data extraction approach
 
-• SQL transformations
+• Transformation logic
 
-• KPI calculations
+• KPI calculations (Funded, Received, Default Rate, etc.)
 
-• Aggregation and filtering logic
+• Aggregation and filtering methodology
 
--> Shows technical understanding of how insights were derived from raw data.
-
+-> Why it matters:
+Provides transparency into how insights were derived from raw loan data, reflecting strong analytical thinking and data traceability.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**📊 4️⃣ Final Project Report ->**
+**📊 4️⃣ Final Project Report & Recommendations -**
 
 -> Summarizes:
 
-• Key findings
-
-• Risk insights
-
 • Portfolio performance trends
 
-• Business recommendations
+• High-risk segment identification
 
--> Presents structured conclusions aligned with financial decision-making.
+• Geographic and grade-based exposure
+
+• Business-level recommendations
