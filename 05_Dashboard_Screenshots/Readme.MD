@@ -1,99 +1,106 @@
-**📊 Dashboard Screenshots->**
+**📊 Dashboard Screenshots – Financial & Loan Performance Monitoring->**
 
-• This folder contains visual previews of business intelligence dashboards developed using Power BI and Tableau as part of financial and loan performance analysis projects.
+• This folder contains visual previews of interactive dashboards built using Microsoft Power BI and Tableau.
 
-• These dashboards convert raw structured data into measurable business insights focused on performance tracking, risk monitoring, and decision support.
+• These dashboards were designed to simulate real-world financial reporting environments, translating raw loan and financial datasets into executive-level performance insights.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**🎯 Objective ->**
+**🔎 Business Focus ->**
 
--> The dashboards were created to:
+-> The dashboards enable stakeholders to:
 
-• Monitor financial and loan portfolio performance
+• Monitor portfolio growth and funding trends
 
-• Track key performance indicators (KPIs)
+• Track key financial KPIs
 
-• Identify performing vs non-performing segments
+• Evaluate performing vs non-performing segments
 
-• Analyze regional and customer-level risk exposure
+• Identify regional and category-level risk exposure
 
-• Support data-driven strategic decisions
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Support data-driven performance reviews
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **📈 Dashboard Coverage ->**
 
-**1️⃣ KPI Performance Overview ->**
+**1️⃣ KPI Performance Overview -**
 
--> Displays high-level business metrics such as:
+• High-level monitoring of:
 
 • Total Applications / Transactions
 
-• Total Funded or Revenue Amount
+• Total Funded Amount
 
-• Amount Received / Profit Metrics
+• Total Received / Profit
 
-• Average Interest Rate / Margin
+• Average Interest Rate
 
-• Growth and trend indicators
+• Growth & Trend Indicators
 
--> Provides management with a quick operational snapshot.
+• Impact: Provides leadership with a quick, decision-ready operational snapshot.
 
-**2️⃣ Good vs Bad Segment Analysis ->**
+**2️⃣ Risk & Portfolio Health Analysis -**
 
--> Compares performing and non-performing segments to assess financial stability.
+-> Focused on segment-level performance:
 
--> Key coverage includes:
+• Good vs Bad Loan Distribution
 
-• Performing vs default percentage
+• Default Rate Monitoring
 
-• Risk distribution patterns
+• Funded vs Recovered Comparison
 
-• Funded vs recovered comparison
+• Exposure Concentration
 
-• Exposure concentration analysis
+• Impact: Enables early detection of risk-heavy segments and portfolio imbalance.
 
--> Supports portfolio health monitoring.
+**3️⃣ Distribution & Trend Intelligence -**
 
-**3️⃣ Distribution & Trend Analysis -**
+-> Multi-dimensional performance tracking:
 
--> Analyzes performance across multiple dimensions:
+• State / regional Contribution
 
-• State or regional distribution
+• Purpose and category segmentation
 
-• Purpose / category segmentation
-
-• Grade / term-based risk profiling
+• Grade and term-based risk profiling
 
 • Monthly performance trends
 
--> Enables identification of growth and risk-heavy segments.
+Impact: Identifies growth drivers and high-risk exposure areas.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**🛠 Tools & Techniques->**
+**🛠 Technical Highlights->**
 
-• Microsoft Power BI
+• Data Modeling & Relationship Building
 
-• Tableau
+• DAX / Calculated Measures
 
-• Data Modeling
+• Interactive Filters & Drill-Down
 
-• Calculated KPIs & Measures
+• Comparative & Time-Series Analysis
 
 • Business-Oriented Visualization Design
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**🎯 End-to-End Workflow Context ->**
+
+• These dashboards are part of a structured analytics pipeline:
+
+SQL → Python (Data Cleaning & KPI Engineering) → BI Dashboard → Business Insights
+
+• Demonstrates alignment between backend data processing and executive reporting.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **📌 Business Value ->**
 
--> These dashboards improve decision-making by transforming complex financial datasets into structured, visual performance summaries.
+-> Transforms complex financial datasets into structured visual intelligence used for:
 
--> They enable organizations to:
+• Portfolio Monitoring
 
-• Monitor operational efficiency
+• Risk Evaluation
 
-• Detect risk exposure early
+• Performance Optimization
 
-• Optimize portfolio allocation
-
-• Support data-backed financial planning
+• Strategic Planning
