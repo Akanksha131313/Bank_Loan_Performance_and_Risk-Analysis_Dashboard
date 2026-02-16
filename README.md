@@ -1,155 +1,186 @@
-# Financial-Report-Analysis |Capstone Project|
+**📊 Bank Loan Performance & Risk Analysis Dashboard**
+
+**SQL | Python | Power BI | Tableau | Financial Analytics**
+
 
 **Author**: Akanksha Mishra
 
-**Role Demonstrated:** Data Analyst | SQL | Financial Analytics | Business Intelligence
+**Role Targeted:** Data Analyst | Business Intelligence | Financial Data Analyst
+
 
 **Project Duration:** Nov 2024 – Dec 2025
 
-**1. Project Overview ->**
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Objective:**
+**🚀 What This Project Demonstrates (Quick Summary)-**
 
-Develop a comprehensive analytics framework to monitor, evaluate, and optimize bank loan performance across multiple dimensions: loan issuance, funding, repayment, interest rates, borrower risk, and geographical insights.
+-> Built an end-to-end loan portfolio analytics framework to:
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Monitor loan performance & repayment behavior
 
-**Purpose:**
+• Identify high-risk (Charged-Off) vs high-performing loans
 
-• Transform raw transactional data into actionable business insights.
+• Track MoM trends, funding allocation & recovery efficiency
 
-• Identify high-performing (good) loans and high-risk (bad) loans to inform strategic decisions.
+• Deliver dashboard-ready datasets for decision-makers
 
-• Enable dynamic reporting and dashboards for management and stakeholders.
+-> This project simulates real-world financial analytics work done in banks and NBFCs.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**2. Problem Statement ->**
+**🎯 Business Problem -**
 
--> Banks and financial institutions need:
+-> Financial institutions need clarity on:
 
-• Real-time monitoring of loan applications, funded amounts, repayments, and interest trends.
+• Which loans are profitable?
 
-• Insights into borrower profiles (employee length, income, home ownership) for risk assessment.
+• Where is risk increasing?
 
-• Month-over-month (MoM) and state-wise analysis to optimize portfolio allocation.
+• Which borrower segments drive revenue?
 
-• This project provides SQL-driven solutions to answer all these business questions.
+• How should portfolio allocation be optimized?
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Raw transactional data doesn’t answer these questions.
 
-**3. Approach & Methodology ->**
+-> This project converts raw loan data into decision-ready insights
 
-• Data Source:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-a) Loan transactional dataset from dbo.financial_loan.
+**🛠 End-to-End Approach -**
 
--> Includes fields: loan_amount, total_payment, issue_date, loan_status, int_rate, dti, emp_length, address_state, purpose, home_ownership, grade.
+1️⃣ Data Handling (SQL + Python)
 
-• Analysis Steps:
+• Cleaned and structured raw loan dataset
 
--> KPIs Calculation:
+• Validated interest rate & DTI calculations
 
-a) Total loan applications, fund disbursed, repayments, interest rates, DTI.
+• Standardized categorical fields
 
-b) Month-to-date (MTD) and previous MTD comparisons for trend analysis.
+• Performed data validation checks
 
--> Loan Performance Segmentation:
+2️⃣ Advanced SQL Analysis
 
-a) Good loans (Fully Paid or Current) vs. Bad loans (Charged Off).
+• Used production-style SQL techniques:
 
-b) Percentage, funded amount, and recovery metrics per segment.
+• CTEs for modular analysis
 
--> Loan Status & Trend Analysis:
+• Window Functions (LAG, LEAD, RANK) for MoM trends
 
-a) Aggregated loan counts, amounts funded, repayments, interest rate, and DTI by loan status.
+• Segmentation logic (Good vs Bad Loans)
 
-b) Month-over-month and filter-based analysis for dynamic insights.
+• Aggregations for KPI computation
 
--> Multi-Dimensional Dashboards:
+• Reusable analytical tables (CTAS)
 
-a) Time (monthly trends)
+3️⃣ Key KPIs Built
 
-b) Geography (state-wise performance)
+• Total Loan Applications
 
-c) Loan term & purpose
+• Total Funded Amount
 
-d) Borrower profile (employee length, home ownership)
+• Total Repayment
 
--> Advanced SQL Techniques Applied:
+• Recovery Rate
 
-a) CTEs for modular analysis and ranking
+• Good vs Bad Loan %
 
-b) Subqueries for conditional insights
+• Avg Interest Rate & DTI
 
-c) Window Functions (LAG, LEAD, RANK, cumulative sums)
+• Month-over-Month Performance
 
-d) Aggregates & Grouping (AVG, SUM, TOP N, HAVING)
+4️⃣ Multi-Dimensional Portfolio Analysis
 
-e) CTAS for reusable output tables
+• Analyzed performance by:
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Loan Status
 
-**4. Key Highlights & Impact ->**
--> Metric	                         Insight / Result
-a) Total Loans :	                 Monitored trends over time, supporting strategic loan issuance decisions
+• Borrower Grade
 
-b) Funded Amount :	                 Identified allocation patterns across states and borrower profiles
+• Employment Length
 
-c) Loan Recovery :	                 Highlighted risk exposure and repayment efficiency
+• State
 
-d) Good vs Bad Loans :	             Segmented loans to prioritize risk mitigation and revenue optimization
+• Loan Purpose
 
-e) Interest Rates & DTI	:            Assessed portfolio health and borrower affordability
+• Home Ownership
 
-f) Dashboard-Ready Data	:            Prepared outputs for Power BI/Tableau visualizations
+• Monthly Trends
 
--> Business Impact:
+5️⃣ Dashboard Integration
 
-a) Informed Decision Making: Provides clear insights to prioritize lending strategies.
+-> Data prepared for:
 
-b) Risk Management: Early identification of bad loans for mitigation.
+• Power BI (Interactive Executive Dashboard)
 
-c) Revenue Optimization: Focus on high-performing loans and profitable borrower segments.
+• Tableau (Loan Insights Dashboard)
 
-d) Scalable Analytics: Queries can be reused for future datasets and dashboard integration.
+Focus: Clean, filter-driven, decision-focused visualization.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**📈 Business Impact -**
 
-**5. Technical Skills Demonstrated ->**
+✔ Identified risk concentration across borrower grades
+✔ Highlighted repayment efficiency trends
+✔ Enabled state-wise funding optimization insights
+✔ Provided structured risk segmentation framework
+✔ Built scalable queries reusable for future datasets
 
-a) SQL (Advanced): CTEs, Subqueries, Window Functions, Aggregates, CTAS
+This is not just a dashboard project — it’s a portfolio monitoring framework.
 
-b) Data Analysis & Reporting: KPI computation, segment-wise analysis, MoM comparison
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-c) Financial Analytics: Loan portfolio evaluation, risk assessment, recovery tracking
+**🔍 Skills Demonstrated -**
 
-d) Dashboard-Ready Data Preparation: Multi-dimensional outputs for visualization tools
+• SQL (Advanced Queries, CTEs, Window Functions, Aggregation)
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Python (Data Cleaning, Preprocessing, Validation)
 
-**6. How to Use / Run the Queries ->**
+• Financial Analytics
 
-a) Load the dataset in SQL Server.
+• Risk Segmentation
 
-b) Execute KPI queries to get high-level insights.
+• KPI Development
 
-c) Use filters (Grade, Loan Status, Purpose, Month) for granular analysis.
+• Data Modeling
 
-d) Apply advanced queries (CTEs, window functions) for deep-dive analysis.
+• Power BI
 
-e) Export results for visualization in BI tools.
+• Tableau
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Business Intelligence Reporting
 
-**7. Outcome & Achievements ->**
+ • Month-over-Month Trend Analysis
 
-a) Delivered a fully functional bank loan analytics framework.
+• Loan Portfolio Analysis
 
-b) Enabled data-driven strategic decisions in loan portfolio management.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-c) Demonstrated end-to-end data analytics capabilities suitable for finance and data roles.
+**📂 Repository Structure -**
 
-d) Ready-to-use outputs for executive dashboards and reporting.
+• SQL Queries (KPI + Segmentation + Trends)
 
-**Result:** Project positions the candidate as an SQL-proficient Data Analyst capable of deriving actionable insights from complex financial datasets—exactly what recruiters want to see.
+• Python Data Cleaning Scripts
+
+• Power BI Dashboard File
+
+• Tableau Workbook
+
+• Documentation (Domain + Problem + Query Logic + Final Report)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**📌 Why This Project Matters -**
+
+-> Most dashboards show numbers.
+
+-> This project shows:
+
+• How insights were derived
+
+• Why the metrics matter
+
+• How risk can be managed using data
+
+• It reflects how a Data Analyst supports financial decision-making.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
