@@ -1,94 +1,61 @@
-**SQL Data Analysis Workflow -** 
+**SQL Financial Loan Performance Analysis-** 
 
-This folder contains SQL scripts used for extracting, transforming, and analyzing financial loan data. The queries are designed to generate business KPIs, loan performance insights, and analytical summaries.
+📌 Project Overview
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Designed and implemented an end-to-end SQL-based financial loan analytics workflow to transform raw transactional loan data into structured business intelligence metrics.
 
-📌 **Objectives -**
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-• Extract financial loan data from database tables
+ **📌Objectives -**
 
-• Perform KPI-based financial analysis
+The objective was to evaluate loan performance, borrower risk segmentation, and monthly funding trends to support data-driven financial decision-making.
 
-• Analyze loan performance and risk categories
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-• Generate datasets for visualization tools like Power BI / Tableau / Excel 
+**🛠 Technical Implementation-**
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Extracted structured loan data from relational database
 
-📂 **File Structure ->**
+• Built KPI logic using aggregate functions and CASE-based segmentation
 
-1️⃣ **Data_Extraction.sql** -
+• Created Good vs Bad loan risk classification model using loan status
 
-Responsible for retrieving raw loan data from database tables.
+• Implemented monthly trend analysis using date functions
 
--> Includes:
+• Applied CTEs and window functions for advanced borrower-level ranking
 
-• Selecting loan records
+• Used CTAS to generate analysis-ready tables for BI visualization
 
-• Extracting required columns
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-• Filtering relevant financial data
+**📊 Key Metrics Generated -**
 
-2️⃣ **Data_Transformation.sql** -
+• Total Loans Issued
 
-Performs business analysis and KPI generation.
+• Total Funded Amount
 
-->Includes:
+• Total Amount Recovered
 
-• Loan performance KPI calculations
+• Loan Default Percentage
 
-• Good vs Bad loan analysis
+• Monthly Funded vs Received Trends
 
-• Monthly and trend-based financial insights
+• Risk Grade-wise Exposure Analysis
 
-• Aggregation and grouping analysis
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-• Advanced SQL concepts:
+**💡 Analytical Impact -**
 
-⁍ CTE (Common Table Expressions)
+-> Converted raw loan records into executive-ready financial KPIs that can be directly consumed by reporting tools such as Power BI or Tableau.
 
-⁍  Window Functions
+-> The workflow improves visibility into:
 
-⁍ Subqueries
+• Portfolio health
 
-⁍ CTAS (Create Table As Select)
+• Risk concentration
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+• Recovery performance
 
-🛠 **SQL Concepts Used -**
-
-• Aggregate Functions (SUM, COUNT, AVG)
-
-• CASE Statements
-
-• GROUP BY and HAVING
-
-• Date Functions
-
-• Ranking Functions
-
-• Data Filtering Techniques
-
-• Analytical SQL Queries
+• Lending growth trends
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-📊 **Business Insights Generated -**
-
-• Loan approval trends
-
-• Funded vs received loan comparison
-
-• Risk analysis using loan status
-
-• Borrower financial behaviour analysis
-
-• Monthly loan performance tracking
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🎯 **Outcome -** 
-
-The SQL scripts convert raw loan database records into structured business intelligence metrics that support financial reporting and strategic decision making.
-
