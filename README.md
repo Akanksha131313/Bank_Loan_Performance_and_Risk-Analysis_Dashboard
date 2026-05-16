@@ -65,6 +65,32 @@ The project focuses on identifying high-risk loan segments, monitoring key finan
 
 ---
 
+## Dashboard Preview
+
+### Power BI Dashboards
+
+#### KPI Summary
+![KPI Summary](05_Dashboard_Screenshots/Power%20BI/01_KPI_Summary.png)
+
+#### Good vs Bad Loan Analysis
+![Good vs Bad Loan](05_Dashboard_Screenshots/Power%20BI/02_Good_vs_Bad.png)
+
+#### Loan Status Analysis
+![Loan Status Table](05_Dashboard_Screenshots/Power%20BI/03_Loan_Status_Table.png)
+
+---
+
+### Tableau Dashboards
+
+#### Loan Summary
+![Loan Summary](05_Dashboard_Screenshots/Tableau/01_Loan_Summary.png)
+
+#### State Analysis
+![State Analysis](05_Dashboard_Screenshots/Tableau/02_State_Analysis.png)
+
+#### Purpose Analysis
+![Purpose Analysis](05_Dashboard_Screenshots/Tableau/03_Purpose_Analysis.png)
+
 ## Business Insights
 - Identified high-risk borrower segments contributing to elevated default exposure
 - Analyzed repayment efficiency and recovery trends
